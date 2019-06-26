@@ -8,9 +8,9 @@ class CreateHuntedHouses < ActiveRecord::Migration[5.1]
       t.string :theme 
       t.integer :price 
       t.boolean :family_friendly 
-      t.string :image_url
-      t.datetime :created_at
-      t.datetime :updated_at 
+      t.datetime :opening_date
+      t.datetime :closing_date
+      t.text :long_description
     end 
   end 
 end 
